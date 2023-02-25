@@ -10,7 +10,7 @@ class Config(object):
     BOT_TOKEN = os.getenv("BOT_TOKEN", "6216770898:AAGYLKamF6BtsZ35ghw6hl9AY3xtZXj_3Wo")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "ckmovieshubrobot")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "String")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "--1001737968373")) 
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001570731743")) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "ckmovieshubrobot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "5181599414"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "cyniteSupport")
@@ -29,7 +29,7 @@ Jᴜsᴛ Tʏᴘᴇ ᴀ Mᴏᴠɪᴇ Nᴀᴍᴇ 🎬**""" )
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋꜱ.
 
 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ✅""" )
-    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "--1001737968373")
+    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001737968373")
     DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://chandan:5gUz!K9m.WJzHnp@cluster0.pumr23p.mongodb.net/?retryWrites=true&w=majority")
     LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001855927796"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 20))
